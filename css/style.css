@@ -1,0 +1,156 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Comic Sans MS', 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #ebe6e6, #ffffff);
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+header {
+  text-align: center;
+  color: #222;
+  width: 100%;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  animation: fadeIn 1.5s ease-in;
+}
+
+header h1 {
+  font-size: 2rem;
+  text-shadow: 2px 2px #fff;
+}
+
+header p {
+  font-style: italic;
+}
+
+.pok-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+  width: 90%;
+  width: 450px;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.game-cont{
+    width: 20px;
+    font-weight: bold;
+}
+
+
+/* Cards */
+.card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Pokémon Section */
+#pokemon-display {
+  text-align: center;
+  margin-top: 15px;
+}
+
+#pokemon-img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  animation: bounce 1.5s infinite;
+}
+
+#pokemon-name {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #e63946;
+  margin-top: 10px;
+}
+
+
+/* Buttons */
+button {
+  background: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  margin-top: 10px;
+  cursor: pointer;
+  align-items: center;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: #ff3b2e;
+  transform: translateY(-3px);
+}
+
+.play-btn{
+      background: #177df9;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  margin-top: 10px;
+  cursor: pointer;
+  align-items: center;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.play-btn:hover {
+  background: #4637eb;
+  transform: translateY(-3px);
+}
+
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: auto;
+  padding: 15px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/*  Animations */
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}

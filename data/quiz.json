@@ -1,0 +1,92 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What type is Pikachu?",
+      "answers": ["Fire", "Electric", "Water", "Grass"],
+      "correct": "Electric",
+      "difficulty": "easy",
+      "hint": "This Pokémon can generate electricity from its cheeks.",
+      "pokemon": "pikachu",
+      "fact": "Pikachu is the mascot of the Pokémon franchise.",
+      "points": 5
+    },
+    {
+      "id": 2,
+      "question": "Which Pokémon evolves into Charizard?",
+      "answers": ["Charmander", "Charmeleon", "Squirtle", "Bulbasaur"],
+      "correct": "Charmeleon",
+      "difficulty": "medium",
+      "hint": "It’s the middle stage of a fiery evolution.",
+      "pokemon": "charizard",
+      "fact": "Charizard can melt boulders with its fiery breath.",
+      "points": 7
+    },
+    {
+      "id": 3,
+      "question": "What is the first Pokémon in the Pokédex?",
+      "answers": ["Bulbasaur", "Pikachu", "Charmander", "Mew"],
+      "correct": "Bulbasaur",
+      "difficulty": "medium",
+      "hint": "It’s a dual-type Grass/Poison Pokémon.",
+      "pokemon": "bulbasaur",
+      "fact": "Bulbasaur stores energy in the bulb on its back.",
+      "points": 6
+    },
+    {
+      "id": 4,
+      "question": "Which Pokémon sleeps most of the time?",
+      "answers": ["Snorlax", "Jigglypuff", "Slowpoke", "Eevee"],
+      "correct": "Snorlax",
+      "difficulty": "easy",
+      "hint": "It blocks roads by sleeping on them.",
+      "pokemon": "snorlax",
+      "fact": "Snorlax’s daily routine consists of eating and sleeping.",
+      "points": 5
+    },
+    {
+      "id": 5,
+      "question": "What type is weak against Electric?",
+      "answers": ["Ground", "Flying", "Water", "Rock"],
+      "correct": "Water",
+      "difficulty": "medium",
+      "hint": "Electric attacks are very effective on this type.",
+      "pokemon": "squirtle",
+      "fact": "Squirtle’s shell helps it defend against attacks.",
+      "points": 6
+    },
+    {
+      "id": 6,
+      "question": "Which Pokémon can evolve into eight different forms?",
+      "answers": ["Ditto", "Eevee", "Mew", "Togepi"],
+      "correct": "Eevee",
+      "difficulty": "hard",
+      "hint": "It’s known for its unstable genetic code.",
+      "pokemon": "eevee",
+      "fact": "Eevee’s evolutions depend on environmental factors and friendship.",
+      "points": 8
+    },
+    {
+      "id": 7,
+      "question": "What’s the legendary bird of fire?",
+      "answers": ["Articuno", "Zapdos", "Moltres", "Ho-Oh"],
+      "correct": "Moltres",
+      "difficulty": "hard",
+      "hint": "Its wings are said to glow with flames.",
+      "pokemon": "moltres",
+      "fact": "Moltres is one of the three Legendary Birds of Kanto.",
+      "points": 10
+    },
+    {
+      "id": 8,
+      "question": "Which Pokémon is known for singing lullabies?",
+      "answers": ["Jigglypuff", "Clefairy", "Togepi", "Psyduck"],
+      "correct": "Jigglypuff",
+      "difficulty": "easy",
+      "hint": "It gets angry when people fall asleep during its songs.",
+      "pokemon": "jigglypuff",
+      "fact": "Jigglypuff’s voice can put even the strongest to sleep.",
+      "points": 5
+    }
+  ]
+}
